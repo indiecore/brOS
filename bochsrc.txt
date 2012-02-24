@@ -1,2 +1,7 @@
-boot: floppy
-floppya: 1_44="floppy.img", status=inserted
+megs: 32
+romimage: file=/usr/share/bochs/BIOS-bochs-latest, address=0xf0000
+vgaromimage: /user/share/bochs/VGABIOS-lgpl-latest
+floppya: 1_44="imgs/floppy.img", status=inserted
+boot: a
+clock: sync=realtime
+cpu: ips=500000
