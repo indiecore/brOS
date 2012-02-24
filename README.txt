@@ -4,8 +4,6 @@ So far, we have the development environment set up and have a booting kernel as 
 
 For my portion of the project I have so far written most of the booting kernel as well as set up the development enviroment.
 
-The last task in that particular section is to create the IDT (Inturrupt Descriptor Table) and map the intterupts of the keyboard to a function that will allow keyboard input.
-
-After that my job will be linking the graphics funcions and other utlities written by the others in my group into the kernel as callable C functions.
+The graphics libs are implemented with help from Nick's math library and Peter provided some pretty cool options such as his custom wave thing (function hurr() ,press 3) and Conway's (function durr(), press 4)
 
 -Kris Gay
