@@ -42,16 +42,6 @@ void kmain(void* mbd, unsigned int magic )
 		;	//empty loop
 }
 
-void* malloc(unsigned size)
-{
-	void* retVal = currentHeapVal;
-	currentHeapVal+=size;
-	return retVal;
-}
-
-
-
-
 int printGreeting()
 {
 	println("Welcome to brOS");	//print a string
